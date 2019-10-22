@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<link type="image/x-icon" rel="shortcut icon" href="images/yclogo.png" />
+<script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+<title>部门信息</title>
+</head>
+<body>
+<img src="images/login_banner.png" />
+<h1><a href="dept/findAll">findAll</a></h1>
+<h1><a href="dept/find?id=20">find</a></h1>
+<h1><a href="dept/show1?name=YC">show1</a></h1>
+<form action="dept/add" method="post">
+	<input type="text" name="deptno" value="1001" />
+	<input type="text" name="dname" value="研发部" />
+	<input type="text" name="loc" value="8605" />
+	<input type="submit" value="提交" />
+</form>
+<hr />
+<form action="dept/add1" method="post">
+	<input type="text" name="deptno" value="1001" />
+	<input type="text" name="dname" value="研发部" />
+	<input type="text" name="loc" value="8605" />
+	<input type="text" name="name" value="源辰" />
+	<input type="submit" value="提交" />
+</form>
+<hr />
+<form action="dept/add2" method="post">
+	<input type="text" name="deptno" value="1001" />
+	<input type="text" name="dname" value="研发部" />
+	<input type="text" name="loc" value="8605" />
+	<input type="text" name="name" value="源辰" />
+	<input type="submit" value="提交" />
+</form>
+</body>
+</html>
